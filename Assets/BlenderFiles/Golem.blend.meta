@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: 9397424069b7d544288241011620a644
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: Drone
+    100006: Elbow_r
+    100008: Foot_l
+    100010: Foot_r
+    100012: //RootNode
+    100014: HandControl_l
+    100016: HandControl_r
+    100018: Head
+    100020: Head_001
+    100022: Head_002
+    100024: Head_003
+    100026: Knee_l
+    100028: Knee_r
+    100030: LegControl_l
+    100032: LegControl_r
+    100034: LowerArm_r
+    100036: LowerLeg_l
+    100038: LowerLeg_r
+    100040: Neck
+    100042: Shoulder_l
+    100044: Shoulder_r
+    100046: Toe_l
+    100048: Toe_r
+    100050: Torso
+    100052: UpperArm_l
+    100054: UpperArm_r
+    100056: UpperLeg_l
+    100058: UpperLeg_r
+    400000: Armature
+    400002: Chest
+    400004: Drone
+    400006: Elbow_r
+    400008: Foot_l
+    400010: Foot_r
+    400012: //RootNode
+    400014: HandControl_l
+    400016: HandControl_r
+    400018: Head
+    400020: Head_001
+    400022: Head_002
+    400024: Head_003
+    400026: Knee_l
+    400028: Knee_r
+    400030: LegControl_l
+    400032: LegControl_r
+    400034: LowerArm_r
+    400036: LowerLeg_l
+    400038: LowerLeg_r
+    400040: Neck
+    400042: Shoulder_l
+    400044: Shoulder_r
+    400046: Toe_l
+    400048: Toe_r
+    400050: Torso
+    400052: UpperArm_l
+    400054: UpperArm_r
+    400056: UpperLeg_l
+    400058: UpperLeg_r
+    4300000: Drone
+    7400000: Default Take
+    7400002: ArmatureAction_001
+    7400004: PoseLib
+    7400006: Attack
+    7400008: WalkCycle
+    7400010: FastWalk
+    9500000: //RootNode
+    13700000: Drone
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

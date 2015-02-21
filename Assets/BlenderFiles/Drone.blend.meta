@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 57b3b0b0a5ee36d439ac37786dc85463
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: //RootNode
+    100006: Drone
+    100008: Elbow_l
+    100010: Elbow_r
+    100012: Foot_l
+    100014: Foot_r
+    100016: Hand_l
+    100018: Hand_r
+    100020: HandControl_l
+    100022: HandControl_r
+    100024: Head
+    100026: Hip
+    100028: Jaw
+    100030: Knee_l
+    100032: Knee_r
+    100034: LegControl_l
+    100036: LegControl_r
+    100038: LowerArm_l
+    100040: LowerArm_r
+    100042: LowerLeg_l
+    100044: LowerLeg_r
+    100046: Neck
+    100048: Shoulder_l
+    100050: Shoulder_r
+    100052: Toe_l
+    100054: Toe_r
+    100056: Torso
+    100058: UpperArm_l
+    100060: UpperArm_r
+    100062: UpperLeg_l
+    100064: UpperLeg_r
+    400000: Armature
+    400002: Chest
+    400004: //RootNode
+    400006: Drone
+    400008: Elbow_l
+    400010: Elbow_r
+    400012: Foot_l
+    400014: Foot_r
+    400016: Hand_l
+    400018: Hand_r
+    400020: HandControl_l
+    400022: HandControl_r
+    400024: Head
+    400026: Hip
+    400028: Jaw
+    400030: Knee_l
+    400032: Knee_r
+    400034: LegControl_l
+    400036: LegControl_r
+    400038: LowerArm_l
+    400040: LowerArm_r
+    400042: LowerLeg_l
+    400044: LowerLeg_r
+    400046: Neck
+    400048: Shoulder_l
+    400050: Shoulder_r
+    400052: Toe_l
+    400054: Toe_r
+    400056: Torso
+    400058: UpperArm_l
+    400060: UpperArm_r
+    400062: UpperLeg_l
+    400064: UpperLeg_r
+    4300000: Drone
+    7400000: Default Take
+    7400002: Alert
+    7400004: PoseLib
+    7400006: RunCycle
+    9500000: //RootNode
+    13700000: Drone
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
