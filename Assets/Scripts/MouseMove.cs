@@ -2,16 +2,24 @@
 using System.Collections;
 
 public class MouseMove : MonoBehaviour {
-
-	void Update() {
-		if (Input.GetMouseButton (0))
-			RotateToMouse ();
-	}
+	public Ray cameraRay;                // The ray that is cast from the camera to the mouse position
+	public RaycastHit cameraRayHit;    // The object that the ray hits
 	
-	void RotateToMouse() {
-		Vector3 v3T = Input.mousePosition;
-		v3T.z = Mathf.Abs(Camera.main.transform.position.y - transform.position.y);
-		v3T = Camera.main.ScreenToWorldPoint(v3T);
-		transform.LookAt(v3T);
+	void Update () 
+	{
+		// Cast a ray from the camera to the mouse cursor
+		cameraRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+		
+		// If the ray strikes an object...
+		if (Physics.Raycast(cameraRay, out cameraRayHit)) 
+		{
+			// ...and if that object is the ground...
+			if(cameraRayHit.transform.tag=="Ground")
+			{
+				// ...make the cube rotate (only on the Y axis) to face the ray hit's position 
+				Vector3 targetPosition = new Vector3(cameraRayHit.point.x, transform.position.y, cameraRayHit.point.z);
+				transform.LookAt(targetPosition);
+			}
+		}
 	}
 }
