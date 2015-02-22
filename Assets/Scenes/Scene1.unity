@@ -670,7 +670,6 @@ GameObject:
   - 58: {fileID: 1030396609}
   - 50: {fileID: 1030396608}
   - 114: {fileID: 1030396610}
-  - 114: {fileID: 1030396611}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -690,7 +689,7 @@ Transform:
   m_Children:
   - {fileID: 125001954}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!50 &1030396608
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -725,20 +724,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1030396606}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e044b8a3f8df1d43bfb989bce17460c, type: 3}
+  m_Script: {fileID: 11500000, guid: cc78c1a2c827d6f46bb963a0d2f71fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1030396611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1030396606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b405d86e35ad0e44db410b5e87b32c2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  maxSpeed: 2
 --- !u!1 &1080833970
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,7 +837,7 @@ Transform:
   m_Children:
   - {fileID: 1455729470}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!114 &1231213137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -958,7 +947,7 @@ Transform:
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
 --- !u!1 &1377026727
 GameObject:
   m_ObjectHideFlags: 0
