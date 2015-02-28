@@ -18,7 +18,7 @@ public class PlayerMove : MonoBehaviour {
 		xtrans = Input.GetAxis("Vertical") * maxSpeed * Time.deltaTime;
 		
 		ytrans = Input.GetAxis("Horizontal") * maxSpeed * Time.deltaTime;
-		
+
 		transform.Translate (-xtrans, 0f, -xtrans);
 		transform.Translate (-ytrans, 0f, ytrans);
 		
