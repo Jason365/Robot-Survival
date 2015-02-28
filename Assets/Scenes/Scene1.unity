@@ -139,6 +139,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 125001954}
   - 95: {fileID: 125001955}
+  - 114: {fileID: 125001956}
   m_Layer: 0
   m_Name: PlayerDrone
   m_TagString: Untagged
@@ -176,6 +177,17 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &125001956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 125001953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e044b8a3f8df1d43bfb989bce17460c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &156896307
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +749,7 @@ GameObject:
   - 58: {fileID: 1030396609}
   - 50: {fileID: 1030396608}
   - 114: {fileID: 1030396610}
+  - 114: {fileID: 1030396611}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -797,6 +810,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 2
+--- !u!114 &1030396611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1030396606}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e044b8a3f8df1d43bfb989bce17460c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1080833970
 GameObject:
   m_ObjectHideFlags: 0
